@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import onyumesenlogo from '../public/onyumesenlogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -58,9 +58,9 @@ const Navbar = () => {
         <Link href='/'>
           <a>
             <Image
-              src={NavLogo}
+              src={onyumesenlogo}
               alt='/'
-              width='125'
+              width='50'
               height='50'
               className='cursor-pointer'
             />
@@ -118,8 +118,8 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src={NavLogo}
-                    width='87'
+                    src={onyumesenlogo}
+                    width='35'
                     height='35'
                     alt='/'
                   />
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/warren-au/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/onsenkame'
                   target='_blank'
                   rel='noreferrer'
                 >
