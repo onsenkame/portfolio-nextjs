@@ -27,7 +27,7 @@ const netflix = () => {
           <p>Project</p>
           <h2 className='py-2'>Overview</h2>
           <p>
-            Scribble Me This is an online multiplayer game where players draw against each other to have a neural net we built and trained in TensorFlow/ML5 using Google QuickDraw's dataset guess their drawings. The host system is built using Socket.io and the site as a whole was built in JavaScript using React and Redux. We continuing working on it to add different game modes, as well as start building out own open-source machine learning datasets to use for future projects and make available to others with similar ideas.
+            Scribble Me This is an online multiplayer game where players draw against each other to have a neural net we built and trained in TensorFlow/ML5 using Google QuickDraw&apos;s dataset guess their drawings. The host system is built using Socket.io and the site as a whole was built in JavaScript using React and Redux. We continuing working on it to add different game modes, as well as start building out own open-source machine learning datasets to use for future projects and make available to others with similar ideas.
           </p>
           <a
             href='https://github.com/Scribble-Me-This/2022-Scribble-Me-This'

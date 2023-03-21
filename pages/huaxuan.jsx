@@ -28,7 +28,7 @@ const property = () => {
           <h2 className='py-2'>Overview</h2>
           <p>
             This app was built using React JS and is hosted on Netlify. Users
-            are able to browse through the gallery's collection of artworks and
+            are able to browse through the gallery&apos;s collection of artworks and
             are restricted from accessing the full resolution images. The site is
             designed to be upscaled to enable a full ecommerce experience.
           </p>

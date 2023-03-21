@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2 className='py-2'>Overview</h2>
           <p>
-            I built this app to enable users to browse through Reddit posts by only using their webcam. The app uses React-webcam to detect the user's hand expressions
+            I built this app to enable users to browse through Reddit posts by only using their webcam. The app uses React-webcam to detect the user&apos;s hand expressions
             and uses Tensorflow.js with the handpose model on the data to generate commands. By leveraging data from the machine learning algorithms, users can use distinct hand gestures intuitively to navigate though posts.
           </p>
           <a
