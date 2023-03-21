@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Fullstack Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I'm on an endless journey to link new technologies with lessons from my varied travels and experiences.
+            I&apos;m on an endless journey to link new technologies with lessons from my varied travels and experiences.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
