@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import huaxuan from '../public/assets/projects/huaxuan.PNG';
+import lazyredditor from '../public/assets/projects/lazyredditor.png';
+import scribble from '../public/assets/projects/scribble.png'
+import soon from '../public/assets/projects/coming soon.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,29 +17,30 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
+            title='Huaxuan Art Gallery'
+            backgroundImg={huaxuan}
+            projectUrl='/huaxuan'
             tech='React JS'
+            fill
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            title='TheLazyRedditor'
+            backgroundImg={lazyredditor}
+            projectUrl='/lazyredditor'
             tech='React JS'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            title='Scribble Me This'
+            backgroundImg={scribble}
+            projectUrl='/scribblemethis'
+            tech='React JS'
+
+          />
+          <ProjectItem
+            title='Coming soon'
+            backgroundImg={soon}
+            projectUrl='/ongoing'
             tech='Next JS'
 
           />
